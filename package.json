@@ -31,5 +31,16 @@
     "encoding": "^0.1.13",
     "postcss": "^8.4.29",
     "tailwindcss": "^3.3.3"
-  }
+  },
+
+  "cacheDirectories": [
+    "node_modules/",
+    ".next/cache/"
+  ],
+  
+  "description": "To learn how to use this repo watch [this tutorial video](https://youtu.be/AMc2A5Abj3M)",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
