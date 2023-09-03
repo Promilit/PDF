@@ -84,7 +84,7 @@ export default function Home() {
                       className="flex gap-2"
                     >
                       <img
-                        src="images/mikidigi_welcome_to_canada_chatbot_77386bd3-cd9e-4911-bb23-126d77a63978.png"
+                        src="/images/football bot.png"
                         className="h-12 w-12 rounded-full"
                       />
                       <div className="w-auto max-w-xl break-words bg-white rounded-b-xl rounded-tr-xl text-black p-2 shadow-[0_10px_40px_0px_rgba(0,0,0,0.15)]">
