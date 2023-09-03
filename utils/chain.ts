@@ -21,7 +21,7 @@ async function initChain() {
     return ConversationalRetrievalQAChain.fromLLM(
         model,
         vectorStore.asRetriever(),
-        {returnSourceDocuments: true}
+        {returnSourceDocuments: false}
     );
 }
 

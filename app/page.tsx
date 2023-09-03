@@ -62,7 +62,7 @@ export default function Home() {
   return (
     <main className="h-screen bg-[url('/images/plenty_balls.png')] bg-cover bg-center p-6 flex flex-col">  
       <div className="flex flex-col gap-8 w-full items-center flex-grow max-h-full">
-        <h1 className="text-4xl font-bold text-transparent font-extralight bg-clip-text bg-gradient-to-r from-white to-slate-50">
+        <h1 className="text-4xl font-bold text-transparent  bg-clip-text bg-gradient-to-r from-white to-slate-50">
           Football History Hub
         </h1>
         <form
@@ -132,7 +132,7 @@ export default function Home() {
             {loading && (
               <div ref={lastMessageRef} className="flex gap-2">
                 <img
-                  src="images/mikidigi_welcome_to_canada_chatbot_77386bd3-cd9e-4911-bb23-126d77a63978.png"
+                  src="/images/football bot.png"
                   className="h-12 w-12 rounded-full"
                 />
                 <div className="w-auto max-w-xl break-words bg-white rounded-b-xl rounded-tr-xl text-black p-6 shadow-[0_10px_40px_0px_rgba(0,0,0,0.15)]">
