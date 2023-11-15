@@ -5,7 +5,8 @@ import {OpenAIEmbeddings} from "langchain/embeddings/openai";
 import {ConversationalRetrievalQAChain} from "langchain/chains";
 
 async function initChain() {
-    const model = new OpenAIChat({});
+    const model = new OpenAIChat({
+        });
 
     const pineconeIndex = pinecone.Index(process.env.PINECONE_INDEX ?? '');
 
@@ -21,7 +22,7 @@ async function initChain() {
     return ConversationalRetrievalQAChain.fromLLM(
         model,
         vectorStore.asRetriever(),
-        {returnSourceDocuments: false}
+        {returnSourceDocuments: true}
     );
 }
 
